@@ -1,0 +1,218 @@
+body {
+    background: black;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background: #131313;
+    height: 70px;
+}
+
+.navbar-contents {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.right-side {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.right-side div {
+    height: 45px;
+    font-weight: 600;
+    padding: 0 15px;
+    border-bottom: 2px solid transparent;
+    color: aliceblue;
+}
+
+.left-side {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.nav-link {
+    margin-right: 40px;
+    text-decoration: none;
+    /* height: 20px; */
+}
+
+.right-side div:hover {
+    color: grey;
+    border-bottom: 3px solid cyan;
+    transition: all 0.5s ease;
+}
+
+.top-content {
+    margin-left: 480px;
+    margin-top: 130px;
+}
+
+.top-content p{
+    color: white;
+    color: rgb(255, 0, 200);
+    margin-bottom: -5px;
+}
+
+.first-top-content {
+    margin-left: -67px;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+#first-top-span {
+    color: cyan;
+}
+
+.second-top-content {
+    margin-left: 0px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#second-top-span {
+    color: cyan;
+}
+
+.top-button {
+    margin-top: 35px;
+    padding: 14px 40px;
+    margin-left: 38px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    background: -webkit-linear-gradient(to right, cyan, crimson, green);
+    background: linear-gradient(to right, rgb(0, 255, 98), rgb(240, 64, 33), rgb(224, 42, 200));
+}
+
+.sales-container {
+    background: #131313;
+    margin-top: 50px;
+    height: 721px;
+    width: 100%;
+}
+
+.sales-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sales-content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.bg-img {
+    height: 350px;
+    width: 99%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-log {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.text {
+    font-weight: 600;
+    color: transparent;
+    transition: all 1s ease;
+}
+
+.sales-content:hover .text {
+    color: cyan;
+    transition: color 0.8s ease;
+}
+
+.img-darken {
+    filter: brightness(10%);
+    transition: filter 0.9s ease;
+}
+
+.service-container {
+    background: #131313;
+    margin-top: 20px;
+}
+
+.service-words{
+    background: -webkit-linear-gradient(to right, cyan, green, lightblue);
+    background: linear-gradient(to right, cyan, rgb(4, 150, 89), rgb(214, 70, 70));
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 250px;
+    width: 100%;
+}
+
+.service-words p{
+    margin-bottom: 1px;
+}
+
+#service-words2 {
+    background: -webkit-linear-gradient(to right, crimson, rgb(240, 158, 6), rgb(91, 91, 167));
+    background: linear-gradient(to right, crimson, rgb(240, 158, 6), rgb(91, 91, 167));
+}
+
+#service-words3 {
+    background: -webkit-linear-gradient(to right, gold, green, cyan);
+    background: linear-gradient(to right, gold, rgb(247, 5, 195), rgb(4, 117, 117));
+}
+
+#text-button {
+    padding: 15px 5px;
+}
+
+.service-text {
+    margin-top: 15px;
+    margin-left: 710px;
+    color: mintcream;
+}
+
+.throw-image {
+    margin-top: -250px;
+    margin-left: 0px;
+}
+
+.throw-image img{
+    height: 15.5rem;
+}
+
+#throw-text-header {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: springgreen;
+}
+
+#pick-it, #delivery {
+    color: cyan;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.service-content:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+}
+
+#throw-image2 img {
+    width: 27.6rem;
+}
